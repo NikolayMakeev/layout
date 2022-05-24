@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 75px;
+    background-color: #000;
+}
+
+.header_logo {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_logo1 {
+    padding-top: 18px;
+}
+
+.header_logo2 {
+    padding-top: 28.21px;
+    padding-left: 41px;
+}
+
+.header_logo3 {
+    padding-top: 30px;
+    padding-left: 859px;
+}
+
+.header_logo4 {
+    padding-top: 26px;
+    padding-left: 33px;
+}
+
+.header_logo5 {
+    padding-top: 26px;
+    padding-left: 33px;
+}
+
+.header_style {
+    height: 764px;
+    background-color: #F1E4E6;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.header_men {
+    margin-left: -230px;
+}
+
+.header_boarder {
+    width: 12px;
+    height: 92px;
+    margin: 289.9px;
+    margin-left: 63.42px;
+    margin-right: 16px;
+}
+
+.header_text {
+    margin: 307.91px;
+    margin-left: 16px;
+}
+
+.content {
+    margin-top: 829px;
+    flex-direction: column;
+}
+
+.item {
+    width: 360px;
+    height: 260px;
+
+}
+
+.women {
+    background: url(img/women_item.png);
+    top: 105px;
+}
+
+.men {
+    background: url(img/men_item.png);
+}
+
+.child {
+    background: url(img/child_item.png);
+}
+
+.item_box {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.item_text_up {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.item_text_down {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #F16D7F;
+    position: relative;
+
+}
+
+.big {
+
+    height: 180px;
+    width: 1140px;
+    background: url(img/BIG_item.png);
+
+}
+
+.item_box_big {
+    text-align: center;
+    margin-top: 65px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+}
+
+.item-big {
+    display: flex;
+}
+
+.footer {
+    height: 100px;
+    background-color: #ccc;
+    margin-top: 150px;
+}
