@@ -26,6 +26,7 @@
 .header_logo3 {
     padding-top: 30px;
     padding-left: 859px;
+    position: relative;
 }
 
 .header_logo4 {
@@ -41,13 +42,13 @@
 .header_style {
     height: 764px;
     background-color: #F1E4E6;
-    width: 1140px;
     margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 .header_men {
-    margin-left: -230px;
+    margin-left: 0px;
 }
 
 .header_boarder {
@@ -66,6 +67,7 @@
 .content {
     margin-top: 829px;
     flex-direction: column;
+    padding-bottom: 90px;
 }
 
 .item {
@@ -130,7 +132,6 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-
 }
 
 .item-flex {
@@ -143,8 +144,169 @@
     display: flex;
 }
 
+.menu-list {
+    position: relative;
+
+}
+
+/*Выпадающая меню. НАЧАЛО*/
+.mega-box {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    top: 48px;
+    display: flex;
+    width: 839px;
+}
+
+.mega-link {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+
+}
+
+.mega-link:hover {
+    color: #F16D7F;
+}
+
+.mega-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.mega-heading::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    transform: rotate(45deg);
+    border-top: 1px solid #F1E4E6;
+
+}
+
+.menu-list:hover .mega-box {
+    display: flex;
+}
+
+.mega-item:last-of-type {
+    margin-right: 0px;
+}
+
+/*Выпадающая меню. КОНЕЦ*/
+/*подвал*/
 .footer {
-    height: 100px;
-    background-color: #ccc;
-    margin-top: 150px;
+    height: 868px;
+    width: auto;
+}
+
+.info__item {
+    display: flex;
+    padding-top: 103px;
+    justify-content: space-around;
+}
+
+.info__item_text {
+    display: block;
+    display: flex;
+    padding-top: 25px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    justify-content: space-around;
+}
+
+.box_info {
+    height: 34px;
+    width: 360px;
+    padding-top: 16px;
+}
+
+.info__item_box {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FBFBFB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__info {
+    height: 341px;
+    background-color: #222224;
+
+}
+
+.footer__review {
+    background-image: url(img/serf_footer.png);
+    background-size: cover;
+    height: 448px;
+}
+
+.footer__law {
+    background-color: #222224;
+    height: 79px;
+
+}
+
+.footer__law_flex {
+    display: flex;
+
+}
+
+.footer__law_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 30px;
+    height: 19px;
+    width: 332px;
+}
+
+.footer__law_logo {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.footer__law_logo1 {
+    padding-left: 655px;
+    padding-top: 23px;
+}
+
+.footer__law_logo2 {
+    padding-left: 7.29px;
+    padding-top: 23px;
+}
+
+.footer__law_logo3 {
+    padding-left: 7.29px;
+    padding-top: 23px;
+}
+
+.footer__law_logo4 {
+    padding-left: 7.29px;
+    padding-top: 23px;
 }
